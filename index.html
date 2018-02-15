@@ -1,16 +1,14 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>KNAPP</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
     <script type="text/javascript" src="js/navApp.js"></script>
-    <meta http-equiv="refesh" content="30">
+
 		<script type="text/javascript" src="cordova.js"></script>
 </head>
 
-<script>
-
-</script>
 
 <body>
     <h1>KNAPP</h1>
@@ -22,9 +20,12 @@
             <a onclick="navigate('B102')">B102</a>
             <a onclick="navigate('B103')">B103</a>
         </div>
-
-
-    </div>
+        <div id="statusDiv">Status: Disconnected</div>
+    		<div id="bleId">DeviceId:</div>
+    		<div id="debugDiv"></div>
         <ul id="bleDeviceList"> </ul>
+    </div>
+
     <br><br>
 </body>
+</html>
