@@ -6,10 +6,10 @@
         id        = "com.firstApp"
         version   = "1.0.0">
 
-    <name>KNAPP</name>
+    <name>My firstApp</name>
 
     <description>
-        KEA Navigation APP
+        firstApp is a demo app
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
