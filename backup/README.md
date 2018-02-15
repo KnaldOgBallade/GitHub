@@ -1,2 +1,0 @@
-KNAPP - KEA Navigation App
-
